@@ -1,27 +1,20 @@
-# NoNamePeople Homepage - Initial
+# People Homepage - Initial
 
-You are a Frontend Developer and have been tasked to build the page in the mockup. Please read the instructions and build the page you see in the Mockup (image or PDF file) accordingly.
+You are a Frontend Developer and have been tasked to refactor an existing page to use React. Please read the instructions and make the changes to the page code accordingly.
 
 Instructions
+1. To be able to run `create-react-app` copy the project files to a folder outside this one. Then run `npx create-react-app .` (`.` signals that the react files shall be created in the current folder)
+2. Create the following components in the `components` folder:
+    1. **Header**
+    2. **Welcome**
+    3. **Services**
+    4. **Footer**
+3. Use the appropriate parts of the original `index.html` to create the JSX for each component.
+4. Move the images to the `public` folder and update the paths in JSX
+5. Divide the original CSS file into individual CSS files for each component and import them in the respective components.
+6. You can include the external CSS by adding the links in `index.html` in the `public` folder
 
-1. Using the Mockup(Image) as a reference, build the site as represented in the mockup.
-1. Create a branch called 'development' for your work and create a pull request when done.
-1. Using The [Golden Ratio Calculator](https://grtcalculator.com/) , calculate the GRT for your Typography.
-1. Ensure that you are using the correct scheme and assets provided in the assets folder and feel free to use font awesome if needed.
-1. The illustrations in the mockup can be found in the assets folder in both SVG and PNG formats.
-
-## Design Information
-
-| Element | color   |
-| ------- | ------- |
-| h1      | #000F37 |
-| h2      | #000F37 |
-| p       | #4F4F4F |
-
-<br>
-
-- Font-family = [Open Sans](https://fonts.google.com/specimen/Open+Sans?query=Open+Sans&selection.family=Open+Sans&sidebar.open=true)
-
-<br>
+## Bonus
+1. Rename the CSS files to `.scss` extension and refactor the CSS to Sass (Nested selectors).
 
 ![alt-text](NNP.png 'Reference Image')
