@@ -4,7 +4,7 @@ You are a Frontend Developer and have been tasked to refactor an existing page t
 
 Instructions
 1. To be able to run `create-react-app` copy the project files to a folder outside this one. Then run `npx create-react-app .` (`.` signals that the react files shall be created in the current folder)
-2. Create the following components in the `components` folder:
+2. Create the following (functional) components in the `components` folder:
     1. **Header**
     2. **Welcome**
     3. **Services**
