@@ -16,5 +16,6 @@ Instructions
 
 ## Bonus
 1. Rename the CSS files to `.scss` extension and refactor the CSS to Sass (Nested selectors).
+2. Put all text contents of the Components in the state and embed it in the JSX.
 
 ![alt-text](NNP.png 'Reference Image')
